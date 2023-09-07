@@ -22,7 +22,6 @@ const setupAndStartServer = () => {
         if(process.env.DB_SYNC) {
             db.sequelize.sync({alert:true});
         }
-       // console.log(FLIGHT_SERVICE_PATH);
        
 
     });

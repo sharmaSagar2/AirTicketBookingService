@@ -35,5 +35,8 @@ class BookingService {
             
         }
     }
+    async update() {
+        
+    }
 }
 module.exports = BookingService;
